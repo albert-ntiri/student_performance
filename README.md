@@ -1,2 +1,19 @@
-# student_performance
-This data set has mock data on student performance.  I will use it to identify factors that affect student performance and predict it.
+# Student Performance - Factors That Affect Scores in Math, Reading, and Writing
+
+## Overview
+In this project, I take a look at the impact different factors have on students' math, reading, and writing scores.  The data set does not contain any personally identifiable information.  It is not real data.  It just has general information about a set of students, in a generalized way.  In addition to analyzing the data, I use machine learning to predict student scores based on the data set.
+
+## Data
+The data set consists of 1,000 rows, each representing a student, and 8 columns.  Here are the columns in this data set:
+- gender: whether the student is listed as male or female
+- race/ethnicity: one of five generalized races listed for the student (group A - group E)
+- parental level of education: the highest level of education the student's parents attained, ranging from some high school to master's degree
+- lunch: whether the student is on free/reduced lunch
+- test preparation course: whether the student has completed a test preparation course
+- math score: the numerical score for the math section of the test, on a 0-100 scale
+- reading score: the numerical score for the reading section of the test, on a 0-100 scale
+- writing score: the numerical score for the writing section of the test, on a 0-100 scale
+
+This data set did not require any cleaning.  There are no missing values or duplicate rows.  A box and whisker plot shows some outliers on the low end of the scores for all 3 subjects, but since they are still in the 0-100 range and that is a reasonable outcome in some cases, I did not remove them.
+
+Most of the students in this data set are not on free/reduced lunch and did not take a test preparation course.  There are slightly more females than males and the most common races are group C and group D, with group A being the least common.  The parental level of education is fairly evenly distributed with no level representing more than 25% of the students and the most highly educated being the least common.  This group of students performed slighly lower on math than in reading and writing on average.  Reading and writing scores were highly correlated.  On average, males had high math scores while females had higher reading and writing scores.  All of the other categorical variables were consistent across subjects on which groups had the highest scores: group E for race, higher parental level of education, not free/reduced lunch, and having taken a test preparation course.
