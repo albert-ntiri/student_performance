@@ -23,6 +23,8 @@ This data set did not require any cleaning.  There are no missing values or dupl
 
 Most of the students in this data set are not on free/reduced lunch and did not take a test preparation course.  There are slightly more females than males and the most common races are group C and group D, with group A being the least common.  The parental level of education is fairly evenly distributed with no level representing more than 25% of the students and the most highly educated being the least common.  This group of students performed slighly lower on math than in reading and writing on average.  Reading and writing scores were highly correlated.  On average, males had high math scores while females had higher reading and writing scores.  All of the other categorical variables were consistent across subjects on which groups had the highest scores: group E for race, higher parental level of education, not free/reduced lunch, and having taken a test preparation course.
 
+![](charts/score_distributions.jpg)
+
 ## Process
 1. The first step in this analysis was to do descriptive statistics to understand each of the variables in the data set.  Once I had a solid understanding of the data, I looked at correlations between each variable and the scores to gain a high-level understanding of their impact.
 2. The second step was to generate a set of group statistics to determine if they add any additional information and/or contribute to a student's performance.
