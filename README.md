@@ -34,4 +34,6 @@ There are a few takeaways from the regression model:
 2. Individual student information (gender, race/ethnicity, lunch, parental level of education, test preparation course) have the same aggregate impact as the combination of group statistics.  Once one of them is there, the impact of adding the other is miniscule.
 3. The impact of gender is different across subjects.  It is the only one of the individual variables that has a different impact, depending on the subject.
 
+![](charts/feature_comparison.jpg)
+
 ![](charts/final_model_results.jpg)
